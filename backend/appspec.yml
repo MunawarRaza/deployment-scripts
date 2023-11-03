@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/backend
+    destination: /var/www/html/qultai_backend
 hooks:
   ApplicationStart:
     - location: afterinstall.sh
